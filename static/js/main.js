@@ -65,7 +65,7 @@
         clearScrollToPageTimeout();
         scrollToPageTimeout = setTimeout(function () {
             scrollToPage(Math.round(position));
-        }, 200)
+        }, 500)
     }
 
     function scroll(event) {

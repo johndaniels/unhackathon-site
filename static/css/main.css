@@ -47,18 +47,16 @@ body.loaded #loading-mask {
     background-origin: 50% 50%;
 }
 
-#first > .content {
-    margin-top: 250px;
+#main > #first > .content {
     text-align: center;
     font-size: 100px;
     font-weight: bold;
     font-family: helvetica;
     color: white;
+    width: auto;
 }
 
-#second {
-    background-color: blue;
-    background-image: url("../images/img1.jpg");
+#main > section {
     background-position: 50% 50%;
     background-origin: 50% 50%;
     display: flex;
@@ -66,16 +64,63 @@ body.loaded #loading-mask {
     justify-content: center;
 }
 
-#third {
-    background-color: green;
+#second {
+    background-image: url("../images/img1.jpg");
 }
 
-#fourth {
-    background-color: orange;
+#section-3 {
+    background-image: url("../images/img3.jpg");
+}
+
+#section-3 .content {
+    background-image: url("../images/img3blur.jpg");
+}
+
+#section-4 {
+    background-image: url("../images/img4.jpg");
+}
+
+#section-4 .content {
+    background-image: url("../images/img4blur.jpg");
+}
+
+#section-5 {
+    background-image: url("../images/img5.jpg");
+}
+
+#section-5 .content {
+    background-image: url("../images/img5blur.jpg");
+}
+
+#section-6 {
+    background-image: url("../images/img6.jpg");
+}
+
+#section-6 .content {
+    background-image: url("../images/img6blur.png");
+}
+
+#section-7 {
+    background-image: url("../images/img7.jpg");
+}
+
+#section-7 .content {
+    background-image: url("../images/img7blur.jpg");
+}
+
+#section-8 {
+    background-image: url("../images/img8.jpg");
+}
+
+#section-8 .content {
+    background-image: url("../images/img8blur.jpg");
 }
 
 #second > .content {
     background-image: url("../images/img1blur.jpg");
+}
+
+#main > section > .content {
     background-position: 50% 50%;
     background-origin: 50% 50%;
     width: 500px;
